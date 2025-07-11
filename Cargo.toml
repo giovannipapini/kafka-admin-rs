@@ -1,0 +1,13 @@
+[package]
+name = "kafka-admin"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+anyhow = "1.0.98"
+clap = { version = "4.5.41", features = ["derive"] }
+humantime = "2.2.0"
+indicatif = "0.18.0"
+log = "0.4.27"
+rdkafka = "0.38.0"
+tokio = { version = "1.46.1", features = ["rt", "rt-multi-thread", "macros"] }
